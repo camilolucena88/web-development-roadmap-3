@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>First Serverless Page</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<aside>
+</aside>
+<main id="home">
+    <div class="container" >
+        <div class="main-header">
+            <h1>Welcome to your first Page</h1>
+            <a type="button" class="btn" href="#contact">Contact</a>
+        </div>
+    </div>
+</main>
+<div class="main-content" >
+    <div class="container" id="news">
+        <div class="grid">
+            <h2>News</h2>
+            <div class="row">
+                <div class="column c3">
+                    <div class="column-title">
+                        <h2>Column 1</h2>
+                    </div>
+                    <div class="column-body">
+                        <p>Here you can add any description and any details that you wanted to mention</p>
+                    </div>
+                    <div class="column-cta">
+                        <a type="button" class="btn small" href="/">Click me</a>
+                    </div>
+                </div>
+                <div class="column c3">
+                    <div class="column-title">
+                        <h2>Column 2</h2>
+                    </div>
+                    <div class="column-body">
+                        <p>Some text..</p>
+                    </div>
+                    <div class="column-cta">
+                        <a type="button" class="btn small" href="/">Click me</a>
+                    </div>
+                </div>
+                <div class="column c3">
+                    <div class="column-title">
+                        <h2>Column 3</h2>
+                    </div>
+                    <div class="column-body">
+                        <p>Here you can add any description and any details that you wanted to mention</p>
+                    </div>
+                    <div class="column-cta">
+                        <a type="button" class="btn small" href="/">Click me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-grey padding-30" id="about">
+        <h2>About us</h2>
+        <div class="grid">
+            <div class="description">
+                <p>White, greasy hair almost fully covers a craggy, friendly face. Shuttered hazel eyes, set a-symmetrically within their sockets, watch devotedly over the families they've rarely felt at home at for so long.
+                    A goatee handsomely compliments his mouth and leaves a bittersweet memory of his fortunate looks.
+
+                    This is the face of Irving Faley, a true idealist among werewolves. He stands seductively among others, despite his lean frame.
+
+                    There's something irregular about him, perhaps it's his bravery or perhaps it's simply his warmth. But nonetheless, people tend to lie about knowing him to brag, while commending him for his deeds.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <div class="padding-30">
+            <h2>Contact</h2>
+        </div>
+        <div class="grid center">
+
+            <form id="myForm" action="" onsubmit="onSubmit()">
+                <div class="">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Name" required>
+                </div>
+                <div class="">
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last name">
+                </div>
+                <div class="">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="padding-30">
+                    <input type="submit" class="btn small">
+                </div>
+                <span class=""></span>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
